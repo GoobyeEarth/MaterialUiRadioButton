@@ -1,0 +1,37 @@
+{
+  "name": "testradiobutton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=nodes mocha --compilers js:babel-register --require babel-polyfill ./nodes/test.setup.js --recursive $(find nodes -name '*.spec.js')"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-power-assert": "^1.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "enzyme": "^2.9.1",
+    "jsdom": "^11.3.0",
+    "mocha": "^3.5.3",
+    "react-test-renderer": "^15.6.2",
+    "power-assert": "^1.4.4",
+    "webpack": "^3.5.6",
+    "webpack-init": "^0.1.2"
+  },
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "material-ui": "^0.19.4",
+    "prop-types": "^15.6.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-flexbox-grid": "^1.1.5"
+  }
+}
